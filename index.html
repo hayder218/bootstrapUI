@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Botstrap CSS file -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>Document</title>
+  <style>
+      body::before{
+          content: '';
+          display: block;
+          height: 90px;
+      }
+  </style>
+</head>
+<body dir="rtl">
+
+    <!-- Navigation bar -->
+
+    <div class="navbar navbar-expand-md bg-light navbar-light text-dark fixed-top">
+
+      <div class="container">
+
+        <!-- <a href="#" class="navbar-brand text-light">جامعة الشهيد حمة لخضر الوادي</a> -->
+        <img src="/images/logo.png" style="width: 80px; height:70px;" alt="" class="img-brand">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+          <i class="fa-solid fa-bars"></i>
+          القائمة الرئيسية
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#social-media-icons">
+          <i class="fa-solid fa-arrow-pointer"></i>
+          تواصل معنا
+        </button>
+
+        <div id="navbar-menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link">الرئيسية</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">الاقسام</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">الاعلانات</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">الاحداث</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">المكتبة</a></li>
+          </ul>
+        </div>
+
+        <div id="social-media-icons" class= "collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-facebook-f" style="color: #58D3F2;"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-twitter" style="color: #58D3F2;"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-phone" style="color: #58D3F2;"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-youtube" style="color: #58D3F2;"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-linkedin" style="color: #58D3F2;"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      
+
+    
+
+
+    </div>
+
+    <!-- End of Navigation bar -->
+
+    <!-- Hero Section -->
+
+    <section id="hero" class="bg-dark text-light py-4 text-center ">
+      <div class="container" style="background-image: url(/images/atom-solid.svg); background-repeat: no-repeat;object-fit: fill; background-position: center; height:50vh">
+        <div class="d-flex">
+          <div class="align-items-center justify-content-center">
+            <h1 class="lead display-2">مرحبا بكم في <span class="text-info">كلية العلوم الدقيقة</span></h1>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id rerum architecto accusamus cum illum sed quia beatae. Laboriosam molestias sapiente doloribus aspernatur hic quibusdam, mollitia error amet rem adipisci earum?</p>
+            <button class="btn btn-info">حول الكلية</button>
+            <button class="btn btn-info">معرض الصور</button>
+          </div>
+          <!-- <img class="py-4" src="/images/atom-solid.svg" alt="svg" style="width: 100%; height:50vh;"> -->
+        </div>
+        </div>
+        
+    </section>
+
+
+    <!-- End of hero section -->
+
+    <!-- Announcements start -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://picsum.photos/300/150" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>عنوان الاعلان</h5>
+                      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla error rerum est assumenda mollitia alias. Dolorum rerum, laborum commodi maiores laboriosam, nemo ullam ipsum beatae exercitationem ut ipsam enim. Aspernatur?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://picsum.photos/300/150" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>عنوان الاعلان</h5>
+                      <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo incidunt aspernatur enim vero odit. Vitae nihil rem provident iusto blanditiis.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://picsum.photos/300/150" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>عنوان الاعلان</h5>
+                      <p class="lead">Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <!-- Important Announcements end -->
+
+    <!-- Departemenets -->
+    <section class="bg-dark text-light">
+        <div class="row ms-auto text-center bg-light">
+            <div class="col-sm-6 col-md-6 col-lg-4 my-2">
+                <div class="card bg-dark px-4 py-3">
+                    <div>
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">قسم الاعلام الالي</h5>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 my-2">
+                <div class="card bg-dark px-4 py-3">
+                    <div>
+                        <i class="fa-solid fa-vial"></i>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">قسم علوم المادة</h5>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 my-2">
+                <div class="card bg-dark px-4 py-3">
+                    <div>
+                        <i class="fa-solid fa-atom"></i>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">قسم الفيزياء</h5>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 my-2">
+                <div class="card bg-dark px-4 py-3">
+                    <div>
+                        <i class="fa-solid fa-atom"></i>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">قسم الفيزياء</h5>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 my-2">
+                <div class="card bg-dark px-4 py-3">
+                    <div>
+                        <i class="fa-solid fa-atom"></i>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">قسم الفيزياء</h5>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 my-2">
+                <div class="card bg-dark px-4 py-3">
+                    <div>
+                        <i class="fa-solid fa-atom"></i>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">قسم الفيزياء</h5>
+                      <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Departements -->
+
+    <!-- footer -->
+
+    <section class="bg-dark text-light">
+        <div class="container">
+            <div class="row p-4 text-center">
+                <div class="col-md-4">
+                    <p class="lead ">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, corrupti?
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead ">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, corrupti?
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="lead ">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, corrupti?
+                    </p>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="row text-light text-center my-2">
+                <div class="col-12">
+                    <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis incidunt sequi nam doloremque, aspernatur consequatur quia omnis autem harum minus!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+      
+    
+
+
+
+
+
+
+  <!-- javaScript bundle  -->
+  <script src="/js/bootstrap.bundle.js"></script>
+
+  <!-- Font Awesome package -->
+  <script src="https://kit.fontawesome.com/aabfea1ebc.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>
